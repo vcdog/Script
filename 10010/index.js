@@ -21,7 +21,8 @@ http-request https:\/\/m\.client\.10010\.com\/mobileserviceimportant\/smart\/sma
 ===================
 
 [rewrite_local]
-https:\/\/m\.client\.10010\.com\/mobileserviceimportant\/smart\/smartwisdomCommon  url script-request-header https://raw.githubusercontent.com/dompling/Script/master/10010/index.js
+# 获取联通cookie
+^https:\/\/m\.client\.10010\.com\/serviceimportantbusiness\/smart\/smartwisdomCommonNew  url script-request-header https://raw.githubusercontent.com/dompling/Script/master/10010/index.js
 
  */
 
